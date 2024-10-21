@@ -1,9 +1,9 @@
 // Début de votre code
 
 const showAddress = (street, cp, city) => {
-    console.log("55 rue Etienne Marey", )
-    console.log("75020" ,);
-    console.log("Paris");
+    console.log(street);
+    console.log(cp);
+    console.log(city);
 }
 
 // Fin de votre code 
