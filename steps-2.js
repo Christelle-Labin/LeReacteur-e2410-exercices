@@ -12,15 +12,22 @@
 
 console.log("Etape 1");
 
-const showCurrentStep = step => {
+const showCurrentStep = (step) => {
     console.log("Etape " + step);
 };
 
 // Début de votre code
 
-showCurrentStep (2);
-showCurrentStep (3);
-showCurrentStep (4);
+//  Méthode 1 :
+// showCurrentStep (2);
+// showCurrentStep (3);
+// showCurrentStep (4);
+
+// Méthode 2 (code plus propre):
+for (let i = 2; i < 5; i++) {
+showCurrentStep(i);
+    
+}
 
 // Fin de votre code
 
